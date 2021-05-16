@@ -1,0 +1,80 @@
+<div class="card border-success bg-light text-dark mb-3">
+  <div class="card-header bg-transparent border-success">
+    <h5>DIAGNOSTICO</h5>
+  </div>
+  <div class="card-body border-success bg-light text-dark">
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="plantratamiento">Plan de Tratamiento</label>
+          <label>&nbsp;</label>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="plantratamiento" onclick="procesar(this)" type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" id="txtplantratamiento" class="form-control"></textarea>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="etapas">Etapas</label>
+          <label>&nbsp;</label>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="etapas" onclick="procesar(this)" type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" class="form-control" id="txtetapas"></textarea>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="aparatos">Aparatos</label>
+          <label>&nbsp;</label>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="aparatos" onclick="procesar(this) " type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" class="form-control" id="txtaparatos"></textarea>
+        </div>
+      </div>
+
+      <!-- <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="familiares">Plan de Tratamiento</label>
+          <label>&nbsp;</label>
+          <input type="text" class="form-control" id="inputPassword4">
+          <input type="text" class="form-control" id="inputPassword4">
+          <input type="text" class="form-control" id="inputPassword4">
+          <input type="text" class="form-control" id="inputPassword4">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="personales">Etapas</label>
+          <label>&nbsp;</label>
+          <input type="text" class="form-control" id="inputPassword4">
+          <input type="text" class="form-control" id="inputPassword4">
+          <input type="text" class="form-control" id="inputPassword4">
+          <input type="text" class="form-control" id="inputPassword4">
+        </div>
+      </div> -->
+      <!-- <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="familiares">Aparatos</label>
+          <label>&nbsp;</label>
+          <input type="text" class="form-control" id="inputPassword4">
+          <input type="text" class="form-control" id="inputPassword4">
+          <input type="text" class="form-control" id="inputPassword4">
+          <input type="text" class="form-control" id="inputPassword4">
+        </div> -->
+        <!-- <div class="form-group col-md-3">
+          <label for="personales">Fecha</label>
+          <label>&nbsp;</label>
+          <input type="date" class="form-control" id="datepicker">
+          <input type="date" class="form-control" id="calendario">
+          <input type="date" class="form-control" id="calendario">
+          <input type="date" class="form-control" id="calendario">
+        </div>
+        <div class="form-group col-md-2">
+          <label for="personales">Hora</label>
+          <label>&nbsp;</label>
+          <input type="time" class="form-control" id="hora" min=”10:00:00″ max="18:00:00">
+          <input type="time" class="form-control" id="hora1" min=”10:00:00″ max="18:00:00">
+          <input type="time" class="form-control" id="hora2" min=”10:00:00″ max="18:00:00">
+          <input type="time" class="form-control" id="hora3" min=”10:00:00″ max="18:00:00">
+        </div> -->
+      <!-- </div> -->
+    </form>
+  </div>
+</div>

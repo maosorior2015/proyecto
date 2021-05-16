@@ -1,0 +1,96 @@
+<div class="card border-success bg-light text-dark mb-3">
+  <div class="card-header bg-transparent border-success">
+    <h5>EXAMEN CLINICO GENERAL</h5>
+  </div>
+  <div class="card-body border-success bg-light text-dark">
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="examengeneral">Exámen General</label>
+          <label>&nbsp;</label>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="general" onclick="procesar(this)" type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" id="txtgeneral" class="form-control"></textarea>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="examenfacial">Exámen Facial</label>
+          <label>&nbsp;</label>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="exafacial" onclick="procesar(this)" type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" class="form-control" id="txtexafacial"></textarea>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="exameintraoral">Exámen IntraOral</label>
+          <label>&nbsp;</label>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="exaintraoral" onclick="procesar(this) " type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" class="form-control" id="txtexaintraoral"></textarea>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label for="maxilarsuperior">Maxilar Superior</label>
+          <label>&nbsp;</label>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="maxsuperior" onclick="procesar(this)" type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" class="form-control" id="txtmaxsuperior"></textarea>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="maxilarinferior">Maxilar Inferior</label>
+          <label>&nbsp;</label>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="maxinferior" onclick="procesar(this)" type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" class="form-control" id="txtmaxinferior"></textarea>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="oclusion">Oclusión</label>
+          <label>&nbsp;</label>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="oclusion" onclick="procesar(this)" type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" class="form-control" id="txtoclusion"></textarea>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="examenradiografico">Examen Radiográfico</label>
+          <label>&nbsp;</label>
+          <button id="adjunta" type="button" class="btn btn-warning mb-2 float-right btn-sm" data-toggle="modal" data-target="#modaladjuntar">Adjuntar</button>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="exaradiografico" onclick="procesar(this)" type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" class="form-control" id="txtexaradiografico"></textarea>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="fotografias">Fotografías</label>
+          <label>&nbsp;</label>
+          <button id="adjunta" type="button" class="btn btn-warning mb-2 float-right btn-sm" data-toggle="modal" data-target="#modaladjuntar">Adjuntar</button>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="fotografias" onclick="procesar(this)" type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" class="form-control" id="txtfotografias"></textarea>
+        </div>
+
+<!-- <button type="button" class="btn btn-primary mb-6 btn-lg" data-toggle="modal" data-target="#modalantecedentes" >Continuar...</button> -->
+    </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="diagnosticoclinico">Diagnóstico Clínico</label>
+          <label>&nbsp;</label>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="diagclinico" onclick="procesar(this)" type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" class="form-control" id="txtdiagclinico"></textarea>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="observaciones">Observaciones</label>
+          <label>&nbsp;</label>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="observaciones" onclick="procesar(this)" type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" class="form-control" id="txtobservaciones"></textarea>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<app-adjuntar></app-adjuntar>

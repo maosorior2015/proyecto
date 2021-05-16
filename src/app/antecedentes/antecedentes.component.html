@@ -1,0 +1,50 @@
+<div class="card border-success bg-light text-dark mb-3">
+  <div class="card-header bg-transparent border-success">
+    <h5>ANTECEDENTES</h5>
+  </div>
+  <div class="card-body border-success">
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="familiares">Familiares</label>
+          <label>&nbsp;</label>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="familiares"  onclick="procesar(this)" type="button" class="btn btn-success mb-2  float-right btn-sm">Hablar</button>
+          <textarea type="text"class="form-control"  id="txtfamiliares"></textarea>
+        </div>
+         <div class="form-group col-md-6">
+          <label for="personales">Personales</label>
+          <label>&nbsp;</label>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="personales" onclick="procesar(this)" type="button" class="btn btn-success mb-2  float-right btn-sm">Hablar</button>
+          <textarea type="text" class="form-control" id="txtpersonales"></textarea>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="habitosyrespiracion">Hábitos y Respiración</label>
+          <label>&nbsp;</label>
+          <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="habitosyrespiracion" onclick="procesar(this) " type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" class="form-control" id="txthabitosyrespiracion"></textarea>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="denticiontemporal">Dentición Temporal</label>
+          <label>&nbsp;</label>
+         <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="denticiontemporal" onclick="procesar(this)" type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" class="form-control" id="txtdenticiontemporal"></textarea>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="denticionpermanente">Denticion Permanente</label>
+          <label>&nbsp;</label>
+           <button id="limpia" type="button" class="btn btn-danger mb-2 float-right btn-sm">Limpiar</button>
+          <button id="denticionpermanente" onclick="procesar(this)" type="button" class="btn btn-success mb-2 float-right btn-sm">Hablar</button>
+          <textarea type="text" class="form-control" id="txtdenticionpermanente"></textarea>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
